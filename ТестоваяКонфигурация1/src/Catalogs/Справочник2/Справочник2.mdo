@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f013c755-6e50-4cd7-8307-4fcd6e55d979">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f013c755-6e50-4cd7-8307-4fcd6e55d979">
   <producedTypes>
     <objectType typeId="47fc4f38-23f5-4246-aa8a-cd774524e6bc" valueTypeId="4a0ff542-e0a1-4d50-8c71-a587ec9b8b36"/>
     <refType typeId="1488a19f-d68f-412c-9a4f-413f3e3a40b1" valueTypeId="ead30138-eacb-44eb-9cfa-4eae07065d16"/>
@@ -30,4 +30,22 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <attributes uuid="42afdf36-07f7-4964-99c2-3f2cf0f1eac2">
+    <name>Реквизит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Catalog>
